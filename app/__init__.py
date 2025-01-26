@@ -16,14 +16,6 @@ def create_app(test_config=None):
 
   )
   
-  @app.route('/hello')
-
-  def hello(): 
-    
-    return 'hellow world bejsus'
-  
-  # register routes
-  
   app.register_blueprint(home)
   app.register_blueprint(dashboard)
   init_db()
