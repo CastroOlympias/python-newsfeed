@@ -40,3 +40,10 @@ def single(id):
 
     post=post
   )
+  
+  
+  
+  # mysql -u root -p
+  # USE python_news_db;
+  # .\venv\Scripts\activate
+  # python -m flask run
