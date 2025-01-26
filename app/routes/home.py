@@ -35,9 +35,7 @@ def single(id):
   # render single post template
 
   return render_template(
-
     'single-post.html',
-
     post=post
   )
   
